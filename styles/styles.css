@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.container{
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.button-style{
+  background-color: rgb(121, 11, 157);
+  border: 3px solid rgb(121, 11, 157);
+  color: white;
+  transition: border 0.25s;
+  transition: opacity 0.5s;
+}
+
+.button-style:hover{
+ background-color: #eee;
+ opacity: 90%;
+ color: rgb(121, 11, 157)
+}
+
+.button-style{
+  height: 40px;
+  justify-content: space-between;
+  display: flex;
+  align-items:center;
+  padding: 15px;
+  transition: border 0.25s;
+}
+
+button > label{
+  padding-right: 10px;
+}
+
+/* grid */
+#grid{
+  border: 3px solid rgb(121, 11, 157);
+  width: 600px;
+  height: 600px;
+  box-sizing: content-box;
+  display: grid;
+  background-color: white;
+}
+
+.square{
+  background-color: white;
+  border: 1px #CCC solid;
+}
+

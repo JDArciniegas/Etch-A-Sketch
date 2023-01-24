@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My First Webpage</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Source+Code+Pro:wght@300;400&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Etch-a-Sketch</h1>
+    <div>
+      <div id="grid"></div>
+      <div class="buttons">
+        <button class="button-style">
+          <label for="colors">PAINT COLOR</label>
+          <input type="color" name="square-colors" class='displa-button' value='#AC12DE' id='square-colors' class="square-colors-inputs">
+        </button>
+        <button class="button-style">
+          <label for="grid-number" id="grid-value-label"> Grid: 50 * 50</label>
+          <input type="range" min="0" max="100" step="1" id="grid-number" />
+        </button>
+        <button class="button-style" id="clearGrid">CLEAR GRID</button>
+      </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
